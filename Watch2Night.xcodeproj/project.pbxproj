@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F372E7821920EC06009CD957 /* WTNTableViewController2_TEMP.m in Sources */ = {isa = PBXBuildFile; fileRef = F372E7811920EC06009CD957 /* WTNTableViewController2_TEMP.m */; };
+		F372E7851920EC2E009CD957 /* WTNTableViewCell_TEMP.m in Sources */ = {isa = PBXBuildFile; fileRef = F372E7841920EC2E009CD957 /* WTNTableViewCell_TEMP.m */; };
+		F372E7881920EFF9009CD957 /* WTNFilmshow.m in Sources */ = {isa = PBXBuildFile; fileRef = F372E7871920EFF9009CD957 /* WTNFilmshow.m */; };
+		F372E78B19211BC2009CD957 /* NSDate+time.m in Sources */ = {isa = PBXBuildFile; fileRef = F372E78A19211BC2009CD957 /* NSDate+time.m */; };
+		F39CDAC6191E2C170041C44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAC5191E2C170041C44E /* Foundation.framework */; };
+		F39CDAC8191E2C170041C44E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAC7191E2C170041C44E /* CoreGraphics.framework */; };
+		F39CDACA191E2C170041C44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAC9191E2C170041C44E /* UIKit.framework */; };
+		F39CDAD0191E2C170041C44E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F39CDACE191E2C170041C44E /* InfoPlist.strings */; };
+		F39CDAD2191E2C170041C44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDAD1191E2C170041C44E /* main.m */; };
+		F39CDAD6191E2C170041C44E /* WTNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDAD5191E2C170041C44E /* WTNAppDelegate.m */; };
+		F39CDAD9191E2C170041C44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F39CDAD7191E2C170041C44E /* Main.storyboard */; };
+		F39CDADC191E2C170041C44E /* WTNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDADB191E2C170041C44E /* WTNViewController.m */; };
+		F39CDADE191E2C170041C44E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F39CDADD191E2C170041C44E /* Images.xcassets */; };
+		F39CDAE5191E2C170041C44E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAE4191E2C170041C44E /* XCTest.framework */; };
+		F39CDAE6191E2C170041C44E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAC5191E2C170041C44E /* Foundation.framework */; };
+		F39CDAE7191E2C170041C44E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDAC9191E2C170041C44E /* UIKit.framework */; };
+		F39CDAEF191E2C170041C44E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F39CDAED191E2C170041C44E /* InfoPlist.strings */; };
+		F39CDAF1191E2C170041C44E /* Watch2NightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDAF0191E2C170041C44E /* Watch2NightTests.m */; };
+		F39CDB00191E2C7A0041C44E /* JCDHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDAFC191E2C7A0041C44E /* JCDHTTPConnection.m */; };
+		F39CDB02191E2C9D0041C44E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F39CDB01191E2C9D0041C44E /* CoreLocation.framework */; };
+		F39CDB05191E2CBE0041C44E /* WTNLocationsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB04191E2CBE0041C44E /* WTNLocationsManager.m */; };
+		F39CDB08191E2D040041C44E /* WTNDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB07191E2D040041C44E /* WTNDataManager.m */; };
+		F39CDB0B191E2E010041C44E /* WTNCinema.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB0A191E2E010041C44E /* WTNCinema.m */; };
+		F39CDB0E191E2E3D0041C44E /* WTNMovie.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB0D191E2E3D0041C44E /* WTNMovie.m */; };
+		F39CDB84191E50340041C44E /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB71191E50340041C44E /* Base64.m */; };
+		F39CDB85191E50340041C44E /* NMJSONResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB74191E50340041C44E /* NMJSONResponse.m */; };
+		F39CDB86191E50340041C44E /* NMURLRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB76191E50340041C44E /* NMURLRequest.m */; };
+		F39CDB87191E50340041C44E /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB79191E50340041C44E /* NSObject+SBJSON.m */; };
+		F39CDB88191E50340041C44E /* NSString+NMKit_Extenstion.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB7B191E50340041C44E /* NSString+NMKit_Extenstion.m */; };
+		F39CDB89191E50340041C44E /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB7D191E50340041C44E /* NSString+SBJSON.m */; };
+		F39CDB8A191E50340041C44E /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB7F191E50340041C44E /* SBJsonBase.m */; };
+		F39CDB8B191E50340041C44E /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB81191E50340041C44E /* SBJsonParser.m */; };
+		F39CDB8C191E50340041C44E /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB83191E50340041C44E /* SBJsonWriter.m */; };
+		F39CDB8F191E691F0041C44E /* WTNCity.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB8E191E691F0041C44E /* WTNCity.m */; };
+		F39CDB92191E6D380041C44E /* WTNMoviesListRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB91191E6D380041C44E /* WTNMoviesListRequest.m */; };
+		F39CDB94191E7D190041C44E /* google_html_example.html in Resources */ = {isa = PBXBuildFile; fileRef = F39CDB93191E7D190041C44E /* google_html_example.html */; };
+		F39CDB97191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.m in Sources */ = {isa = PBXBuildFile; fileRef = F39CDB96191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.m */; };
+		F3C8602919283890001172C2 /* WTNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C8602819283890001172C2 /* WTNMainViewController.m */; };
+		F3C8602C19283C0E001172C2 /* WTNMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C8602B19283C0E001172C2 /* WTNMapViewController.m */; };
+		F3C8602E19283F00001172C2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3C8602D19283F00001172C2 /* MapKit.framework */; };
+		F3C86031192843BB001172C2 /* WTNMapAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C86030192843BB001172C2 /* WTNMapAnnotation.m */; };
+		F3C86034192855B0001172C2 /* WTNMovieTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3C86033192855B0001172C2 /* WTNMovieTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F39CDAE8191E2C170041C44E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F39CDABA191E2C170041C44E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F39CDAC1191E2C170041C44E;
+			remoteInfo = Watch2Night;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F372E7801920EC06009CD957 /* WTNTableViewController2_TEMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNTableViewController2_TEMP.h; sourceTree = "<group>"; };
+		F372E7811920EC06009CD957 /* WTNTableViewController2_TEMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNTableViewController2_TEMP.m; sourceTree = "<group>"; };
+		F372E7831920EC2E009CD957 /* WTNTableViewCell_TEMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNTableViewCell_TEMP.h; sourceTree = "<group>"; };
+		F372E7841920EC2E009CD957 /* WTNTableViewCell_TEMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNTableViewCell_TEMP.m; sourceTree = "<group>"; };
+		F372E7861920EFF9009CD957 /* WTNFilmshow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNFilmshow.h; sourceTree = "<group>"; };
+		F372E7871920EFF9009CD957 /* WTNFilmshow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNFilmshow.m; sourceTree = "<group>"; };
+		F372E78919211BC2009CD957 /* NSDate+time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+time.h"; path = "Watch2Night/NSDate+time.h"; sourceTree = "<group>"; };
+		F372E78A19211BC2009CD957 /* NSDate+time.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+time.m"; path = "Watch2Night/NSDate+time.m"; sourceTree = "<group>"; };
+		F39CDAC2191E2C170041C44E /* Watch2Night.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Watch2Night.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39CDAC5191E2C170041C44E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F39CDAC7191E2C170041C44E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F39CDAC9191E2C170041C44E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F39CDACD191E2C170041C44E /* Watch2Night-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watch2Night-Info.plist"; sourceTree = "<group>"; };
+		F39CDACF191E2C170041C44E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F39CDAD1191E2C170041C44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F39CDAD3191E2C170041C44E /* Watch2Night-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Watch2Night-Prefix.pch"; sourceTree = "<group>"; };
+		F39CDAD4191E2C170041C44E /* WTNAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNAppDelegate.h; sourceTree = "<group>"; };
+		F39CDAD5191E2C170041C44E /* WTNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNAppDelegate.m; sourceTree = "<group>"; };
+		F39CDAD8191E2C170041C44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F39CDADA191E2C170041C44E /* WTNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNViewController.h; sourceTree = "<group>"; };
+		F39CDADB191E2C170041C44E /* WTNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WTNViewController.m; sourceTree = "<group>"; };
+		F39CDADD191E2C170041C44E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F39CDAE3191E2C170041C44E /* Watch2NightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Watch2NightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F39CDAE4191E2C170041C44E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		F39CDAEC191E2C170041C44E /* Watch2NightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Watch2NightTests-Info.plist"; sourceTree = "<group>"; };
+		F39CDAEE191E2C170041C44E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F39CDAF0191E2C170041C44E /* Watch2NightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Watch2NightTests.m; sourceTree = "<group>"; };
+		F39CDAFB191E2C7A0041C44E /* JCDHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCDHTTPConnection.h; sourceTree = "<group>"; };
+		F39CDAFC191E2C7A0041C44E /* JCDHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCDHTTPConnection.m; sourceTree = "<group>"; };
+		F39CDB01191E2C9D0041C44E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F39CDB03191E2CBE0041C44E /* WTNLocationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNLocationsManager.h; sourceTree = "<group>"; };
+		F39CDB04191E2CBE0041C44E /* WTNLocationsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNLocationsManager.m; sourceTree = "<group>"; };
+		F39CDB06191E2D040041C44E /* WTNDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNDataManager.h; sourceTree = "<group>"; };
+		F39CDB07191E2D040041C44E /* WTNDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNDataManager.m; sourceTree = "<group>"; };
+		F39CDB09191E2E010041C44E /* WTNCinema.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNCinema.h; sourceTree = "<group>"; };
+		F39CDB0A191E2E010041C44E /* WTNCinema.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNCinema.m; sourceTree = "<group>"; };
+		F39CDB0C191E2E3D0041C44E /* WTNMovie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMovie.h; sourceTree = "<group>"; };
+		F39CDB0D191E2E3D0041C44E /* WTNMovie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMovie.m; sourceTree = "<group>"; };
+		F39CDB0F191E3BA20041C44E /* WTNDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WTNDefines.h; sourceTree = "<group>"; };
+		F39CDB70191E50340041C44E /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		F39CDB71191E50340041C44E /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		F39CDB72191E50340041C44E /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		F39CDB73191E50340041C44E /* NMJSONResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMJSONResponse.h; sourceTree = "<group>"; };
+		F39CDB74191E50340041C44E /* NMJSONResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMJSONResponse.m; sourceTree = "<group>"; };
+		F39CDB75191E50340041C44E /* NMURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMURLRequest.h; sourceTree = "<group>"; };
+		F39CDB76191E50340041C44E /* NMURLRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NMURLRequest.m; sourceTree = "<group>"; };
+		F39CDB77191E50340041C44E /* NMURLRequest_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NMURLRequest_internal.h; sourceTree = "<group>"; };
+		F39CDB78191E50340041C44E /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		F39CDB79191E50340041C44E /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		F39CDB7A191E50340041C44E /* NSString+NMKit_Extenstion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NMKit_Extenstion.h"; sourceTree = "<group>"; };
+		F39CDB7B191E50340041C44E /* NSString+NMKit_Extenstion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NMKit_Extenstion.m"; sourceTree = "<group>"; };
+		F39CDB7C191E50340041C44E /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		F39CDB7D191E50340041C44E /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		F39CDB7E191E50340041C44E /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		F39CDB7F191E50340041C44E /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		F39CDB80191E50340041C44E /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		F39CDB81191E50340041C44E /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		F39CDB82191E50340041C44E /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		F39CDB83191E50340041C44E /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		F39CDB8D191E691F0041C44E /* WTNCity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNCity.h; sourceTree = "<group>"; };
+		F39CDB8E191E691F0041C44E /* WTNCity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNCity.m; sourceTree = "<group>"; };
+		F39CDB90191E6D380041C44E /* WTNMoviesListRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMoviesListRequest.h; sourceTree = "<group>"; };
+		F39CDB91191E6D380041C44E /* WTNMoviesListRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMoviesListRequest.m; sourceTree = "<group>"; };
+		F39CDB93191E7D190041C44E /* google_html_example.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = google_html_example.html; sourceTree = "<group>"; };
+		F39CDB95191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMovieTableViewCell_TEMP.h; sourceTree = "<group>"; };
+		F39CDB96191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMovieTableViewCell_TEMP.m; sourceTree = "<group>"; };
+		F3C8602719283890001172C2 /* WTNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMainViewController.h; sourceTree = "<group>"; };
+		F3C8602819283890001172C2 /* WTNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMainViewController.m; sourceTree = "<group>"; };
+		F3C8602A19283C0E001172C2 /* WTNMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMapViewController.h; sourceTree = "<group>"; };
+		F3C8602B19283C0E001172C2 /* WTNMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMapViewController.m; sourceTree = "<group>"; };
+		F3C8602D19283F00001172C2 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F3C8602F192843BB001172C2 /* WTNMapAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMapAnnotation.h; sourceTree = "<group>"; };
+		F3C86030192843BB001172C2 /* WTNMapAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMapAnnotation.m; sourceTree = "<group>"; };
+		F3C86032192855B0001172C2 /* WTNMovieTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WTNMovieTableViewController.h; sourceTree = "<group>"; };
+		F3C86033192855B0001172C2 /* WTNMovieTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WTNMovieTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F39CDABF191E2C170041C44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C8602E19283F00001172C2 /* MapKit.framework in Frameworks */,
+				F39CDB02191E2C9D0041C44E /* CoreLocation.framework in Frameworks */,
+				F39CDAC8191E2C170041C44E /* CoreGraphics.framework in Frameworks */,
+				F39CDACA191E2C170041C44E /* UIKit.framework in Frameworks */,
+				F39CDAC6191E2C170041C44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39CDAE0191E2C170041C44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CDAE5191E2C170041C44E /* XCTest.framework in Frameworks */,
+				F39CDAE7191E2C170041C44E /* UIKit.framework in Frameworks */,
+				F39CDAE6191E2C170041C44E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F39CDAB9191E2C170041C44E = {
+			isa = PBXGroup;
+			children = (
+				F372E78919211BC2009CD957 /* NSDate+time.h */,
+				F372E78A19211BC2009CD957 /* NSDate+time.m */,
+				F39CDB6F191E50340041C44E /* NMKit_URL */,
+				F39CDACB191E2C170041C44E /* Watch2Night */,
+				F39CDAEA191E2C170041C44E /* Watch2NightTests */,
+				F39CDAFA191E2C7A0041C44E /* Third_Party */,
+				F39CDAC4191E2C170041C44E /* Frameworks */,
+				F39CDAC3191E2C170041C44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F39CDAC3191E2C170041C44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDAC2191E2C170041C44E /* Watch2Night.app */,
+				F39CDAE3191E2C170041C44E /* Watch2NightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F39CDAC4191E2C170041C44E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3C8602D19283F00001172C2 /* MapKit.framework */,
+				F39CDB01191E2C9D0041C44E /* CoreLocation.framework */,
+				F39CDAC5191E2C170041C44E /* Foundation.framework */,
+				F39CDAC7191E2C170041C44E /* CoreGraphics.framework */,
+				F39CDAC9191E2C170041C44E /* UIKit.framework */,
+				F39CDAE4191E2C170041C44E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F39CDACB191E2C170041C44E /* Watch2Night */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDAD4191E2C170041C44E /* WTNAppDelegate.h */,
+				F39CDAD5191E2C170041C44E /* WTNAppDelegate.m */,
+				F39CDB93191E7D190041C44E /* google_html_example.html */,
+				F39CDAD7191E2C170041C44E /* Main.storyboard */,
+				F39CDAFD191E2C7A0041C44E /* Model */,
+				F39CDAFE191E2C7A0041C44E /* Controllers */,
+				F39CDAFF191E2C7A0041C44E /* Views */,
+				F39CDADA191E2C170041C44E /* WTNViewController.h */,
+				F39CDADB191E2C170041C44E /* WTNViewController.m */,
+				F39CDADD191E2C170041C44E /* Images.xcassets */,
+				F39CDACC191E2C170041C44E /* Supporting Files */,
+			);
+			path = Watch2Night;
+			sourceTree = "<group>";
+		};
+		F39CDACC191E2C170041C44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDACD191E2C170041C44E /* Watch2Night-Info.plist */,
+				F39CDACE191E2C170041C44E /* InfoPlist.strings */,
+				F39CDAD1191E2C170041C44E /* main.m */,
+				F39CDAD3191E2C170041C44E /* Watch2Night-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39CDAEA191E2C170041C44E /* Watch2NightTests */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDAF0191E2C170041C44E /* Watch2NightTests.m */,
+				F39CDAEB191E2C170041C44E /* Supporting Files */,
+			);
+			path = Watch2NightTests;
+			sourceTree = "<group>";
+		};
+		F39CDAEB191E2C170041C44E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDAEC191E2C170041C44E /* Watch2NightTests-Info.plist */,
+				F39CDAED191E2C170041C44E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F39CDAFA191E2C7A0041C44E /* Third_Party */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDAFB191E2C7A0041C44E /* JCDHTTPConnection.h */,
+				F39CDAFC191E2C7A0041C44E /* JCDHTTPConnection.m */,
+			);
+			name = Third_Party;
+			path = Watch2Night/Third_Party;
+			sourceTree = "<group>";
+		};
+		F39CDAFD191E2C7A0041C44E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDB0F191E3BA20041C44E /* WTNDefines.h */,
+				F39CDB03191E2CBE0041C44E /* WTNLocationsManager.h */,
+				F39CDB04191E2CBE0041C44E /* WTNLocationsManager.m */,
+				F39CDB06191E2D040041C44E /* WTNDataManager.h */,
+				F39CDB07191E2D040041C44E /* WTNDataManager.m */,
+				F39CDB09191E2E010041C44E /* WTNCinema.h */,
+				F39CDB0A191E2E010041C44E /* WTNCinema.m */,
+				F39CDB0C191E2E3D0041C44E /* WTNMovie.h */,
+				F39CDB0D191E2E3D0041C44E /* WTNMovie.m */,
+				F372E7861920EFF9009CD957 /* WTNFilmshow.h */,
+				F372E7871920EFF9009CD957 /* WTNFilmshow.m */,
+				F39CDB8D191E691F0041C44E /* WTNCity.h */,
+				F39CDB8E191E691F0041C44E /* WTNCity.m */,
+				F39CDB90191E6D380041C44E /* WTNMoviesListRequest.h */,
+				F39CDB91191E6D380041C44E /* WTNMoviesListRequest.m */,
+				F3C8602F192843BB001172C2 /* WTNMapAnnotation.h */,
+				F3C86030192843BB001172C2 /* WTNMapAnnotation.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F39CDAFE191E2C7A0041C44E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F372E7801920EC06009CD957 /* WTNTableViewController2_TEMP.h */,
+				F372E7811920EC06009CD957 /* WTNTableViewController2_TEMP.m */,
+				F3C8602719283890001172C2 /* WTNMainViewController.h */,
+				F3C8602819283890001172C2 /* WTNMainViewController.m */,
+				F3C8602A19283C0E001172C2 /* WTNMapViewController.h */,
+				F3C8602B19283C0E001172C2 /* WTNMapViewController.m */,
+				F3C86032192855B0001172C2 /* WTNMovieTableViewController.h */,
+				F3C86033192855B0001172C2 /* WTNMovieTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F39CDAFF191E2C7A0041C44E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDB95191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.h */,
+				F39CDB96191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.m */,
+				F372E7831920EC2E009CD957 /* WTNTableViewCell_TEMP.h */,
+				F372E7841920EC2E009CD957 /* WTNTableViewCell_TEMP.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F39CDB6F191E50340041C44E /* NMKit_URL */ = {
+			isa = PBXGroup;
+			children = (
+				F39CDB70191E50340041C44E /* Base64.h */,
+				F39CDB71191E50340041C44E /* Base64.m */,
+				F39CDB72191E50340041C44E /* JSON.h */,
+				F39CDB73191E50340041C44E /* NMJSONResponse.h */,
+				F39CDB74191E50340041C44E /* NMJSONResponse.m */,
+				F39CDB75191E50340041C44E /* NMURLRequest.h */,
+				F39CDB76191E50340041C44E /* NMURLRequest.m */,
+				F39CDB77191E50340041C44E /* NMURLRequest_internal.h */,
+				F39CDB78191E50340041C44E /* NSObject+SBJSON.h */,
+				F39CDB79191E50340041C44E /* NSObject+SBJSON.m */,
+				F39CDB7A191E50340041C44E /* NSString+NMKit_Extenstion.h */,
+				F39CDB7B191E50340041C44E /* NSString+NMKit_Extenstion.m */,
+				F39CDB7C191E50340041C44E /* NSString+SBJSON.h */,
+				F39CDB7D191E50340041C44E /* NSString+SBJSON.m */,
+				F39CDB7E191E50340041C44E /* SBJsonBase.h */,
+				F39CDB7F191E50340041C44E /* SBJsonBase.m */,
+				F39CDB80191E50340041C44E /* SBJsonParser.h */,
+				F39CDB81191E50340041C44E /* SBJsonParser.m */,
+				F39CDB82191E50340041C44E /* SBJsonWriter.h */,
+				F39CDB83191E50340041C44E /* SBJsonWriter.m */,
+			);
+			name = NMKit_URL;
+			path = ../lib/NMKit_URL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F39CDAC1191E2C170041C44E /* Watch2Night */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39CDAF4191E2C170041C44E /* Build configuration list for PBXNativeTarget "Watch2Night" */;
+			buildPhases = (
+				F39CDABE191E2C170041C44E /* Sources */,
+				F39CDABF191E2C170041C44E /* Frameworks */,
+				F39CDAC0191E2C170041C44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Watch2Night;
+			productName = Watch2Night;
+			productReference = F39CDAC2191E2C170041C44E /* Watch2Night.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F39CDAE2191E2C170041C44E /* Watch2NightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F39CDAF7191E2C170041C44E /* Build configuration list for PBXNativeTarget "Watch2NightTests" */;
+			buildPhases = (
+				F39CDADF191E2C170041C44E /* Sources */,
+				F39CDAE0191E2C170041C44E /* Frameworks */,
+				F39CDAE1191E2C170041C44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F39CDAE9191E2C170041C44E /* PBXTargetDependency */,
+			);
+			name = Watch2NightTests;
+			productName = Watch2NightTests;
+			productReference = F39CDAE3191E2C170041C44E /* Watch2NightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F39CDABA191E2C170041C44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WTN;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = W2NCopr;
+				TargetAttributes = {
+					F39CDAE2191E2C170041C44E = {
+						TestTargetID = F39CDAC1191E2C170041C44E;
+					};
+				};
+			};
+			buildConfigurationList = F39CDABD191E2C170041C44E /* Build configuration list for PBXProject "Watch2Night" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F39CDAB9191E2C170041C44E;
+			productRefGroup = F39CDAC3191E2C170041C44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F39CDAC1191E2C170041C44E /* Watch2Night */,
+				F39CDAE2191E2C170041C44E /* Watch2NightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F39CDAC0191E2C170041C44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CDADE191E2C170041C44E /* Images.xcassets in Resources */,
+				F39CDAD0191E2C170041C44E /* InfoPlist.strings in Resources */,
+				F39CDAD9191E2C170041C44E /* Main.storyboard in Resources */,
+				F39CDB94191E7D190041C44E /* google_html_example.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39CDAE1191E2C170041C44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CDAEF191E2C170041C44E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F39CDABE191E2C170041C44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CDB8F191E691F0041C44E /* WTNCity.m in Sources */,
+				F39CDB86191E50340041C44E /* NMURLRequest.m in Sources */,
+				F39CDAD6191E2C170041C44E /* WTNAppDelegate.m in Sources */,
+				F3C8602919283890001172C2 /* WTNMainViewController.m in Sources */,
+				F39CDB85191E50340041C44E /* NMJSONResponse.m in Sources */,
+				F3C8602C19283C0E001172C2 /* WTNMapViewController.m in Sources */,
+				F39CDB97191EC8A70041C44E /* WTNMovieTableViewCell_TEMP.m in Sources */,
+				F39CDB92191E6D380041C44E /* WTNMoviesListRequest.m in Sources */,
+				F39CDB0B191E2E010041C44E /* WTNCinema.m in Sources */,
+				F372E7851920EC2E009CD957 /* WTNTableViewCell_TEMP.m in Sources */,
+				F39CDB05191E2CBE0041C44E /* WTNLocationsManager.m in Sources */,
+				F39CDB8B191E50340041C44E /* SBJsonParser.m in Sources */,
+				F3C86031192843BB001172C2 /* WTNMapAnnotation.m in Sources */,
+				F39CDAD2191E2C170041C44E /* main.m in Sources */,
+				F39CDB08191E2D040041C44E /* WTNDataManager.m in Sources */,
+				F39CDB8A191E50340041C44E /* SBJsonBase.m in Sources */,
+				F372E7821920EC06009CD957 /* WTNTableViewController2_TEMP.m in Sources */,
+				F39CDADC191E2C170041C44E /* WTNViewController.m in Sources */,
+				F39CDB0E191E2E3D0041C44E /* WTNMovie.m in Sources */,
+				F39CDB88191E50340041C44E /* NSString+NMKit_Extenstion.m in Sources */,
+				F372E78B19211BC2009CD957 /* NSDate+time.m in Sources */,
+				F372E7881920EFF9009CD957 /* WTNFilmshow.m in Sources */,
+				F39CDB84191E50340041C44E /* Base64.m in Sources */,
+				F39CDB87191E50340041C44E /* NSObject+SBJSON.m in Sources */,
+				F3C86034192855B0001172C2 /* WTNMovieTableViewController.m in Sources */,
+				F39CDB89191E50340041C44E /* NSString+SBJSON.m in Sources */,
+				F39CDB00191E2C7A0041C44E /* JCDHTTPConnection.m in Sources */,
+				F39CDB8C191E50340041C44E /* SBJsonWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F39CDADF191E2C170041C44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F39CDAF1191E2C170041C44E /* Watch2NightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F39CDAE9191E2C170041C44E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F39CDAC1191E2C170041C44E /* Watch2Night */;
+			targetProxy = F39CDAE8191E2C170041C44E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F39CDACE191E2C170041C44E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39CDACF191E2C170041C44E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F39CDAD7191E2C170041C44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39CDAD8191E2C170041C44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F39CDAED191E2C170041C44E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F39CDAEE191E2C170041C44E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F39CDAF2191E2C170041C44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F39CDAF3191E2C170041C44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F39CDAF5191E2C170041C44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch2Night/Watch2Night-Prefix.pch";
+				INFOPLIST_FILE = "Watch2Night/Watch2Night-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F39CDAF6191E2C170041C44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch2Night/Watch2Night-Prefix.pch";
+				INFOPLIST_FILE = "Watch2Night/Watch2Night-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F39CDAF8191E2C170041C44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watch2Night.app/Watch2Night";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch2Night/Watch2Night-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Watch2NightTests/Watch2NightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		F39CDAF9191E2C170041C44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Watch2Night.app/Watch2Night";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Watch2Night/Watch2Night-Prefix.pch";
+				INFOPLIST_FILE = "Watch2NightTests/Watch2NightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F39CDABD191E2C170041C44E /* Build configuration list for PBXProject "Watch2Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39CDAF2191E2C170041C44E /* Debug */,
+				F39CDAF3191E2C170041C44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39CDAF4191E2C170041C44E /* Build configuration list for PBXNativeTarget "Watch2Night" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39CDAF5191E2C170041C44E /* Debug */,
+				F39CDAF6191E2C170041C44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F39CDAF7191E2C170041C44E /* Build configuration list for PBXNativeTarget "Watch2NightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F39CDAF8191E2C170041C44E /* Debug */,
+				F39CDAF9191E2C170041C44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F39CDABA191E2C170041C44E /* Project object */;
+}
